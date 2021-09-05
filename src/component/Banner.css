@@ -1,0 +1,109 @@
+/* Banner Style */
+.Banner {
+	background-image: url(../Asset/banner-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 200px 0px;
+	background-position: center center;
+}
+.Banner .caption {
+	text-align: center;
+}
+.Banner .caption h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+}
+.Banner #search-section fieldset {
+	display: inline-block;
+}
+.Banner #search-section {
+	position: relative;
+}
+.Banner #search-section input.searchText {
+	float: left;
+	width: 570px;
+	min-width: 280px;
+	height: 49px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 0px 15px;
+	color: #fff;
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+.Banner #search-section input.main-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 20px;
+	border: none;
+	margin-left: 10px;
+	background-color: #00bcd4;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	transition: all 0.5s;
+	margin-bottom: 30px;
+}
+.banner #search-section button:hover {
+	background-color: #00a4b9;
+}
+#search-section ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+}
+#search-section ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+#search-section ul li:last-child {
+	margin-right: 0px;
+}
+#search-section input[type=checkbox] {
+	width: 18px;
+	min-width: 18px;
+	height: 18px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	outline: none;
+	cursor: pointer;
+}
+#search-section span {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	margin-left: 8px;
+}
+#search-section em {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+#search-section ::-webkit-input-placeholder { /* Edge */
+  color: #fff;
+}
+
+#search-section :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+#search-section ::placeholder {
+  color: #fff;
+}
